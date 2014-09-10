@@ -18,6 +18,7 @@ public class AnimationSort
 
       System.out.print("Enter size of data (100 recomended): ");
       int dataSize = in.nextInt();
+      code that does not work
 
       ArrayComponent panel = new ArrayComponent();
       JFrame frame = new JFrame();
