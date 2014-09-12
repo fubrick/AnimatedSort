@@ -35,6 +35,7 @@ public class AnimationSort
       frame2.setSize(FRAME_WIDTH, FRAME_HEIGHT);
       frame2.setLocation(FRAME_WIDTH, 0);
       frame2.setVisible(true);
+      //code that is new
 
       ArrayComponent panel3 = new ArrayComponent();
       JFrame frame3 = new JFrame();
