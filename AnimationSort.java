@@ -13,10 +13,10 @@ public class AnimationSort
    public static void main(String[] args)
    {
       Scanner in = new Scanner (System.in);
-      System.out.print("\nEnter a delay (50 recomended): ");
+      System.out.print("\nEnter a delay in milliseconds (50 recommended): ");
       int delay = in.nextInt();
 
-      System.out.print("Enter size of data (100 recomended): ");
+      System.out.print("Enter size of data (100 recommended): ");
       int dataSize = in.nextInt();
 
       ArrayComponent panel = new ArrayComponent();
