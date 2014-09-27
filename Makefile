@@ -14,14 +14,13 @@ JFLAGS = -g
 # typing 'make' will invoke the first target entry in the makefile 
 # (the default one in this case)
 #
-default: AnimationSort.class
-
+default: poop
 # this target entry builds the Average class
 # the Average.class file is dependent on the Average.java file
 # and the rule associated with this entry gives the command to create it
 #
-AnimationSort.class: AnimationSort.java
-	$(JCC) $(JFLAGS) AnimationSort.java
+poop: AnimationSort.java
+	$(JCC) *.java
 
 #Convert.class: Convert.java
 #        $(JCC) $(JFLAGS) Convert.java
